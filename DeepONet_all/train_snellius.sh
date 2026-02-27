@@ -36,6 +36,6 @@ fi
 
 ##execute
 
-source ../../../../../../../my_venv/bin/activate
+source ../../../my_venv/bin/activate
 
 srun python train.py
