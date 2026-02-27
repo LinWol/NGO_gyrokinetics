@@ -37,7 +37,7 @@ if __name__ == "__main__":
     model = VlasovModel(input_dim=4, Nv=Nv, Nt=Nt, basis_matrix=basis_matrix)  # Changed from 1 to 96
     
     # 3. Train
-    trainer = L.Trainer(max_epochs=5, accelerator="auto")
+    trainer = L.Trainer(max_epochs=5000, accelerator="auto")
     trainer.fit(model=model, train_dataloaders=train_loader, val_dataloaders=val_loader)
 
     # Save the trained model
