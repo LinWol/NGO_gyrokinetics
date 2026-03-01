@@ -2,7 +2,6 @@
 numpy~=1.26.4
 scipy>=1.13.0
 matplotlib
-torch~=2.5.1
 tensorboard~=2.13.0
 pytorch-lightning~=2.3.0
 opt-einsum~=3.3.0
